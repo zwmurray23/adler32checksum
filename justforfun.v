@@ -15,12 +15,9 @@
 // Main design work was completed before this date.
 
 module zach_murray (
-  input clk, rst_n,
-  input [21:0] age,
-  input data_start,
-  input [7:0] data,
-  output checksum_valid,
-  output [31:0] checksum
+  input bs_compEngr,
+  input ms_compEngr,
+  output reg  degrees
 );
   
 endmodule

@@ -15,11 +15,11 @@
 // Main design work was completed before this date.
 
 module zach_murray (
-  input bs_compEngr,
-  input ms_compEngr,
-  output reg  degrees
-);
-  
+  input BS_CompEngr,
+  input MS_CompEngr,
+  input Continuous_Learning,
+  output reg Impactful_Career
+); 
 endmodule
 
 
